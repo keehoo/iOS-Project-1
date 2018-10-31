@@ -8,23 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		358556DE2189A212002AF8B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358556DD2189A212002AF8B0 /* AppDelegate.swift */; };
-		358556E02189A212002AF8B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358556DF2189A212002AF8B0 /* ViewController.swift */; };
 		358556E32189A212002AF8B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358556E12189A212002AF8B0 /* Main.storyboard */; };
 		358556E52189A214002AF8B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358556E42189A214002AF8B0 /* Assets.xcassets */; };
 		358556E82189A214002AF8B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358556E62189A214002AF8B0 /* LaunchScreen.storyboard */; };
+		358556FA2189B374002AF8B0 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358556F92189B374002AF8B0 /* ChatVC.swift */; };
+		358556FC2189B383002AF8B0 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358556FB2189B383002AF8B0 /* ChannelVC.swift */; };
+		358557042189EDB0002AF8B0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358557022189EDB0002AF8B0 /* SWRevealViewController.m */; };
 		AB4C23E0029EC68ACD29623A /* Pods_TestRun2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3381120E800AF2A54FF8C0 /* Pods_TestRun2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		358556DA2189A212002AF8B0 /* TestRun2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRun2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		358556DD2189A212002AF8B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		358556DF2189A212002AF8B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		358556E22189A212002AF8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		358556E42189A214002AF8B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		358556E72189A214002AF8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		358556E92189A214002AF8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		358556F42189AC75002AF8B0 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		358556F52189AC75002AF8B0 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		358556F92189B374002AF8B0 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		358556FB2189B383002AF8B0 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		358557012189EDAF002AF8B0 /* TestRun2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestRun2-Bridging-Header.h"; sourceTree = "<group>"; };
+		358557022189EDB0002AF8B0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
+		358557032189EDB0002AF8B0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
 		5D8F2F2A1F2B565B5CB2815E /* Pods-TestRun2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRun2.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestRun2/Pods-TestRun2.release.xcconfig"; sourceTree = "<group>"; };
 		7FF213406F5A153F2F565652 /* Pods-TestRun2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRun2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestRun2/Pods-TestRun2.debug.xcconfig"; sourceTree = "<group>"; };
 		9F3381120E800AF2A54FF8C0 /* Pods_TestRun2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestRun2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +66,6 @@
 		358556D12189A212002AF8B0 = {
 			isa = PBXGroup;
 			children = (
-				358556EF2189AC45002AF8B0 /* Supporting Files */,
 				358556DC2189A212002AF8B0 /* TestRun2 */,
 				358556DB2189A212002AF8B0 /* Products */,
 				032359AD95FE8DDCDD8B6524 /* Pods */,
@@ -81,8 +84,11 @@
 		358556DC2189A212002AF8B0 /* TestRun2 */ = {
 			isa = PBXGroup;
 			children = (
+				358557002189ED86002AF8B0 /* Support */,
+				358556F82189B350002AF8B0 /* Model */,
+				358556F72189B34B002AF8B0 /* View */,
+				358556F62189B342002AF8B0 /* Controller */,
 				358556DD2189A212002AF8B0 /* AppDelegate.swift */,
-				358556DF2189A212002AF8B0 /* ViewController.swift */,
 				358556E12189A212002AF8B0 /* Main.storyboard */,
 				358556E42189A214002AF8B0 /* Assets.xcassets */,
 				358556E62189A214002AF8B0 /* LaunchScreen.storyboard */,
@@ -91,13 +97,37 @@
 			path = TestRun2;
 			sourceTree = "<group>";
 		};
-		358556EF2189AC45002AF8B0 /* Supporting Files */ = {
+		358556F62189B342002AF8B0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				358556F52189AC75002AF8B0 /* SWRevealViewController.h */,
-				358556F42189AC75002AF8B0 /* SWRevealViewController.m */,
+				358556F92189B374002AF8B0 /* ChatVC.swift */,
+				358556FB2189B383002AF8B0 /* ChannelVC.swift */,
 			);
-			path = "Supporting Files";
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		358556F72189B34B002AF8B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		358556F82189B350002AF8B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		358557002189ED86002AF8B0 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				358557032189EDB0002AF8B0 /* SWRevealViewController.h */,
+				358557022189EDB0002AF8B0 /* SWRevealViewController.m */,
+				358557012189EDAF002AF8B0 /* TestRun2-Bridging-Header.h */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +249,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				358556E02189A212002AF8B0 /* ViewController.swift in Sources */,
+				358556FA2189B374002AF8B0 /* ChatVC.swift in Sources */,
+				358556FC2189B383002AF8B0 /* ChannelVC.swift in Sources */,
 				358556DE2189A212002AF8B0 /* AppDelegate.swift in Sources */,
+				358557042189EDB0002AF8B0 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +409,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kree.keehoo.TestRun2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "TestRun2-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestRun2/Support/TestRun2-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -399,7 +431,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kree.keehoo.TestRun2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "TestRun2-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestRun2/Support/TestRun2-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
