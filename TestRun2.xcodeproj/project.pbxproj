@@ -16,6 +16,7 @@
 		358557042189EDB0002AF8B0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358557022189EDB0002AF8B0 /* SWRevealViewController.m */; };
 		358557062189F104002AF8B0 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358557052189F104002AF8B0 /* GradientView.swift */; };
 		35C6506B218A38CA00B1F6F8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6506A218A38CA00B1F6F8 /* Constants.swift */; };
+		35DBA2F021906948000C4D29 /* LoginVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DBA2EF21906948000C4D29 /* LoginVCViewController.swift */; };
 		AB4C23E0029EC68ACD29623A /* Pods_TestRun2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3381120E800AF2A54FF8C0 /* Pods_TestRun2.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		358557032189EDB0002AF8B0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
 		358557052189F104002AF8B0 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		35C6506A218A38CA00B1F6F8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		35DBA2EF21906948000C4D29 /* LoginVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCViewController.swift; sourceTree = "<group>"; };
 		5D8F2F2A1F2B565B5CB2815E /* Pods-TestRun2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRun2.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestRun2/Pods-TestRun2.release.xcconfig"; sourceTree = "<group>"; };
 		7FF213406F5A153F2F565652 /* Pods-TestRun2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRun2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestRun2/Pods-TestRun2.debug.xcconfig"; sourceTree = "<group>"; };
 		9F3381120E800AF2A54FF8C0 /* Pods_TestRun2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestRun2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +109,7 @@
 			children = (
 				358556F92189B374002AF8B0 /* ChatVC.swift */,
 				358556FB2189B383002AF8B0 /* ChannelVC.swift */,
+				35DBA2EF21906948000C4D29 /* LoginVCViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				358556DE2189A212002AF8B0 /* AppDelegate.swift in Sources */,
 				358557042189EDB0002AF8B0 /* SWRevealViewController.m in Sources */,
 				35C6506B218A38CA00B1F6F8 /* Constants.swift in Sources */,
+				35DBA2F021906948000C4D29 /* LoginVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
