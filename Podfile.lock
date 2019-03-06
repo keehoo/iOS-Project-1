@@ -11,7 +11,7 @@ DEPENDENCIES:
   - SwiftyJSON
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Alamofire
     - Socket.IO-Client-Swift
     - Starscream
@@ -25,4 +25,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 8bcb3185c29afd825fd97925f07936b3c34c742d
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.6.1
